@@ -1,11 +1,11 @@
-// let num = +prompt("qai kursta okisyz: 1/2/3/4")
-// let city =  prompt(" Kelgen zheriniz, Almaty ma? yes/no")
+let num = +prompt("qai kursta okisyz: 1/2/3/4")
+let city =  prompt(" Kelgen zheriniz, Almaty ma? yes/no")
 
-// if((num == 1 || num == 2 && city == "no" )){
-//   alert("Quttyqtaimyz, sizge zhatahanadan oryn berildi")
-// }else{
-//   alert("sizge zhatahanadan oryn berilmeidi")
-// }
+if((num == 1 || num == 2 && city == "no" )){
+  alert("Quttyqtaimyz, sizge zhatahanadan oryn berildi")
+}else{
+  alert("sizge zhatahanadan oryn berilmeidi")
+}
 
 
 
