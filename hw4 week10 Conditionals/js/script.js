@@ -1,11 +1,3 @@
-//  let san  = prompt("0-99 arasyndagy sandy engiz:")
-//  if( san >= 0 && san < 100){
-//     alert("birinshi san:" + san +'\n' +  "ekinshi san:" )
-//  }else if(san >= 0 && san < 10){
-//     alert("birinshi san:" + san)
-//  }else{
-//     alert("sandy durys zhazbadynyz")
-//  }
 
  let san = prompt("0 мен 99 арасындағы санды енгізіңіз:");
 if (san.length == 1) {
