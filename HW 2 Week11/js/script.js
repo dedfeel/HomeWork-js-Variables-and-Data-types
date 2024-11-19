@@ -1,13 +1,13 @@
-let stu = +prompt("Студенттер санын енгізіңіз")
-let sany = 1;
-let total_baga = 0;
-while(sany <= stu){
-    let baga = +prompt( sany + "-студенттің бағасын енгізіңіз:")
-    total_baga=total_baga+baga
-    sany++;
-}
-    let upai = total_baga / stu
-    alert("Студенттердің бағаларының орташа мәні:" + upai)
+// let stu = +prompt("Студенттер санын енгізіңіз")
+// let sany = 1;
+// let total_baga = 0;
+// while(sany <= stu){
+//     let baga = +prompt( sany + "-студенттің бағасын енгізіңіз:")
+//     total_baga=total_baga+baga
+//     sany++;
+// }
+//     let upai = total_baga / stu
+//     alert("Студенттердің бағаларының орташа мәні:" + upai)
 
     
 
@@ -30,3 +30,19 @@ while(sany <= stu){
 
     //   Нәтижесі:
     //         Студенттердің бағаларының орташа мәні: 84.33
+
+
+    let student = +prompt("Student sanyn zhazynyz")
+    let oqushy = 1;
+    let bagalary = 0;
+    while(student >= oqushy){
+        let baga = +prompt(oqushy+"-Student bagasyn engiziniz" )
+        bagalary = bagalary + baga
+        oqushy++;
+
+    }
+    alert("Студенттердің бағаларының орташа мәні" + bagalary / student)
+
+
+
+    
