@@ -16,7 +16,7 @@ if(tili == "English"){
 }else{
     alert(`korsetilgen tildi tandanyz`)
 }
-
+    
 alert(language(aty))
 
 
