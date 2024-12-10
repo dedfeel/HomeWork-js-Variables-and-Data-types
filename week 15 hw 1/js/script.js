@@ -4,6 +4,11 @@ taqyrypAty.textContent = 'HW: Introduction to DOM'
 let aty = document.getElementById('Esim')
 aty.textContent = 'Berik Aziz'
 
+let hobbies = document.getElementsByClassName('hobbyes');
+
+hobbies[0].innerHTML = '<b>Coding</b>'
+hobbies[1].innerHTML = '<b>Teaching</b>'
+hobbies[2].innerHTML = '<b>Reading</b>'
 
 
 
